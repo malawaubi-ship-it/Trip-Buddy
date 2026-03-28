@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Modern Travel App Palette -->
+    <color name="md_theme_light_primary">#006a6a</color>
+    <color name="md_theme_light_onPrimary">#ffffff</color>
+    <color name="md_theme_light_primaryContainer">#6ff7f6</color>
+    <color name="md_theme_light_onPrimaryContainer">#002020</color>
+    <color name="md_theme_light_secondary">#4a6363</color>
+    <color name="md_theme_light_onSecondary">#ffffff</color>
+    <color name="md_theme_light_secondaryContainer">#cce8e7</color>
+    <color name="md_theme_light_onSecondaryContainer">#051f1f</color>
+    <color name="md_theme_light_tertiary">#4b607c</color>
+    <color name="md_theme_light_onTertiary">#ffffff</color>
+    <color name="md_theme_light_tertiaryContainer">#d3e3ff</color>
+    <color name="md_theme_light_onTertiaryContainer">#041c35</color>
+    <color name="md_theme_light_error">#ba1a1a</color>
+    <color name="md_theme_light_errorContainer">#ffdad6</color>
+    <color name="md_theme_light_onError">#ffffff</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+    <color name="md_theme_light_background">#fafcfb</color>
+    <color name="md_theme_light_onBackground">#191c1c</color>
+    <color name="md_theme_light_surface">#fafcfb</color>
+    <color name="md_theme_light_onSurface">#191c1c</color>
+</resources>

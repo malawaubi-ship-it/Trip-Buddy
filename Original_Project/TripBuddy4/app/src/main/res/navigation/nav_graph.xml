@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginActivity">
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.tripbuddy.ui.LoginActivity"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerActivity" />
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment" />
+    </activity>
+
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.example.tripbuddy.ui.RegisterActivity"
+        android:label="Register">
+        <action
+            android:id="@+id/action_register_to_login"
+            app:destination="@id/loginActivity" />
+    </activity>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.tripbuddy.ui.HomeFragment"
+        android:label="Home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/memoriesFragment"
+        android:name="com.example.tripbuddy.ui.MemoriesFragment"
+        android:label="Memories">
+    </fragment>
+
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.tripbuddy.ui.GalleryFragment"
+        android:label="Gallery">
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.tripbuddy.ui.SettingsFragment"
+        android:label="Settings">
+    </fragment>
+
+    <activity
+        android:id="@+id/tripPlanningActivity"
+        android:name="com.example.tripbuddy.ui.TripPlanningActivity"
+        android:label="Trip Planning">
+    </activity>
+
+    <activity
+        android:id="@+id/budgetSummaryActivity"
+        android:name="com.example.tripbuddy.ui.BudgetSummaryActivity"
+        android:label="Budget Summary">
+    </activity>
+
+    <activity
+        android:id="@+id/fullScreenImageActivity"
+        android:name="com.example.tripbuddy.ui.FullScreenPhotoActivity"
+        android:label="Full Screen Image">
+    </activity>
+
+</navigation>

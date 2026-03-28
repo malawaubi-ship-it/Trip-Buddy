@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_host_fragment" type="id" />
+    <item name="subtotalText" type="id" />
+    <item name="discountText" type="id" />
+    <item name="finalTotalText" type="id" />
+    <item name="backToHomeButton" type="id" />
+    <item name="playButton" type="id" />
+    <item name="pauseButton" type="id" />
+    <item name="sampleImage" type="id" />
+    <item name="galleryImage" type="id" />
+    <item name="sightseeingCheckBox" type="id" />
+    <item name="hikingCheckBox" type="id" />
+    <item name="diningCheckBox" type="id" />
+</resources>
